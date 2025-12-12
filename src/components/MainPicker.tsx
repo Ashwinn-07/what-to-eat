@@ -105,7 +105,7 @@ export default function MainPicker() {
   }) => (
     <button
       onClick={onClick}
-      className={`px-4 py-2 rounded-full text-sm font-medium transition-all motion-reduce:transition-none active:scale-95 ${
+      className={`px-4 py-2 rounded-full text-sm font-medium transition-all motion-reduce:transition-none active:scale-95 cursor-pointer ${
         isActive
           ? "bg-orange-500 text-white shadow-md"
           : "bg-white text-gray-700 hover:bg-gray-100 shadow-sm"
@@ -127,13 +127,13 @@ export default function MainPicker() {
           </p>
         </div>
 
-        <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-1 mb-2">
+        {/* <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-1 mb-2">
           <div className="h-16 bg-linear-to-r from-orange-100 to-amber-100 rounded-xl flex items-center justify-center">
             <p className="text-sm text-gray-600 px-4 text-center">
               Ad Space - Placeholder
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 mb-6">
           <div className="space-y-6">
@@ -421,7 +421,7 @@ export default function MainPicker() {
               </button>
               <button
                 onClick={() => setShowFavorites(!showFavorites)}
-                className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-4 px-4 rounded-xl transition-all motion-reduce:transition-none active:scale-95 relative"
+                className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-4 px-4 rounded-xl transition-all motion-reduce:transition-none active:scale-95 relative cursor-pointer"
               >
                 <Heart
                   className={
@@ -512,7 +512,7 @@ export default function MainPicker() {
 
               <button
                 onClick={() => setSelectedDish(null)}
-                className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors motion-reduce:transition-none"
+                className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors motion-reduce:transition-none cursor-pointer"
               >
                 <X size={24} />
               </button>
@@ -529,7 +529,7 @@ export default function MainPicker() {
                 </h2>
                 <button
                   onClick={() => setShowFavorites(false)}
-                  className="text-gray-400 hover:text-gray-600 transition-colors motion-reduce:transition-none"
+                  className="text-gray-400 hover:text-gray-600 transition-colors motion-reduce:transition-none cursor-pointer"
                 >
                   <X size={24} />
                 </button>
@@ -568,7 +568,7 @@ export default function MainPicker() {
                               setSelectedDish(dish);
                               setShowFavorites(false);
                             }}
-                            className="text-orange-500 hover:text-orange-600 font-medium text-sm"
+                            className="text-orange-500 hover:text-orange-600 font-medium text-sm cursor-pointer"
                           >
                             View
                           </button>
@@ -582,13 +582,13 @@ export default function MainPicker() {
           </div>
         )}
 
-        <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-1 mt-6">
+        {/* <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-1 mt-6">
           <div className="h-24 bg-linear-to-r from-blue-100 to-cyan-100 rounded-xl flex items-center justify-center">
             <p className="text-sm text-gray-600 px-4 text-center">
               Ad Space - Placeholder
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

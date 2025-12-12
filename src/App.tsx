@@ -34,7 +34,7 @@ function App() {
           <div className="max-w-4xl mx-auto px-6 py-4">
             <button
               onClick={() => setCurrentPage("home")}
-              className="flex items-center gap-2 text-gray-700 hover:text-gray-900 font-medium transition-colors motion-reduce:transition-none"
+              className="flex items-center gap-2 text-gray-700 hover:text-gray-900 font-medium transition-colors motion-reduce:transition-none cursor-pointer"
             >
               <ArrowLeft size={20} />
               Back to Picker
