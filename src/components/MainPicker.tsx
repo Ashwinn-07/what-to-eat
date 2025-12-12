@@ -11,6 +11,7 @@ export default function MainPicker() {
     time: "all",
     price: "all",
     region: "all",
+    recipeUrl: "",
   });
 
   const [selectedDish, setSelectedDish] = useState<Dish | null>(null);
@@ -346,11 +347,11 @@ export default function MainPicker() {
                   }
                 />
                 <FilterButton
-                  value="south-indian"
+                  value="South Indian"
                   label="South Indian"
-                  isActive={filters.region === "south-indian"}
+                  isActive={filters.region === "South Indian"}
                   onClick={() =>
-                    setFilters({ ...filters, region: "south-indian" })
+                    setFilters({ ...filters, region: "South Indian" })
                   }
                 />
                 <FilterButton
@@ -414,7 +415,7 @@ export default function MainPicker() {
             <div className="max-w-4xl mx-auto flex gap-3">
               <button
                 onClick={pickRandomDish}
-                className="flex-1 bg-linear-to-r from-orange-500 to-amber-500 text-white font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all motion-reduce:transition-none active:scale-95"
+                className="flex-1 bg-linear-to-r from-orange-500 to-amber-500 text-white font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all motion-reduce:transition-none active:scale-95 cursor-pointer"
               >
                 Pick Something For Me! 🎲
               </button>
@@ -464,35 +465,49 @@ export default function MainPicker() {
                 </span>
               </div>
 
-              <div className="flex gap-3">
-                <button
-                  onClick={() => pickRandomDish()}
-                  className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-xl flex items-center justify-center gap-2 transition-all motion-reduce:transition-none active:scale-95"
-                >
-                  <RefreshCw size={18} /> Re-Pick
-                </button>
-                <button
-                  onClick={() => toggleFavorite(selectedDish.id)}
-                  className={`flex-1 font-semibold py-3 px-6 rounded-xl flex items-center justify-center gap-2 transition-all motion-reduce:transition-none active:scale-95 ${
-                    favorites.includes(selectedDish.id)
-                      ? "bg-red-500 hover:bg-red-600 text-white"
-                      : "bg-gray-100 hover:bg-gray-200 text-gray-700"
-                  }`}
-                >
-                  <Heart
-                    size={18}
-                    className={
-                      favorites.includes(selectedDish.id) ? "fill-current" : ""
-                    }
-                  />
-                  {favorites.includes(selectedDish.id) ? "Saved" : "Save"}
-                </button>
-                <button
-                  onClick={shareDish}
-                  className="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl flex items-center justify-center gap-2 transition-all motion-reduce:transition-none active:scale-95"
-                >
-                  <Share2 size={18} /> Share
-                </button>
+              <div className="space-y-3">
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <button
+                    onClick={() => pickRandomDish()}
+                    className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all motion-reduce:transition-none active:scale-95 cursor-pointer"
+                  >
+                    <RefreshCw size={18} /> Re-Pick
+                  </button>
+                  <button
+                    onClick={() => toggleFavorite(selectedDish.id)}
+                    className={`flex-1 font-semibold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all motion-reduce:transition-none active:scale-95 cursor-pointer ${
+                      favorites.includes(selectedDish.id)
+                        ? "bg-red-500 hover:bg-red-600 text-white"
+                        : "bg-gray-100 hover:bg-gray-200 text-gray-700"
+                    }`}
+                  >
+                    <Heart
+                      size={18}
+                      className={
+                        favorites.includes(selectedDish.id)
+                          ? "fill-current"
+                          : ""
+                      }
+                    />
+                    {favorites.includes(selectedDish.id) ? "Saved" : "Save"}
+                  </button>
+                  <button
+                    onClick={shareDish}
+                    className="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all motion-reduce:transition-none active:scale-95 cursor-pointer"
+                  >
+                    <Share2 size={18} /> Share
+                  </button>
+                </div>
+                {selectedDish.recipeUrl && (
+                  <a
+                    href={selectedDish.recipeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full bg-linear-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold py-3 px-4 rounded-xl text-center transition-all motion-reduce:transition-none active:scale-95 cursor-pointer"
+                  >
+                    View Recipe 📖
+                  </a>
+                )}
               </div>
 
               <button

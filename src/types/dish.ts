@@ -10,7 +10,7 @@ export interface Dish {
   priceLevel: "cheap" | "medium" | "expensive";
   region:
     | "north-indian"
-    | "south-indian"
+    | "South Indian"
     | "east-indian"
     | "west-indian"
     | "northeast-indian"
@@ -19,6 +19,7 @@ export interface Dish {
     | "italian"
     | "mexican"
     | "middle-eastern";
+  recipeUrl: string;
 }
 
 export interface Filters {
@@ -28,4 +29,5 @@ export interface Filters {
   time: string;
   price: string;
   region: string;
+  recipeUrl: string;
 }

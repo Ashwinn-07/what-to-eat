@@ -44,11 +44,15 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+          <div className="mt-8 p-4 bg-linear-to-r from-orange-50 to-amber-50 rounded-lg border border-orange-200">
             <p className="text-gray-700 text-sm">
-              <span className="font-semibold">Note:</span> This is a
-              demonstration app. For a production version, contact information
-              and a contact form would be provided here.
+              <span className="font-semibold">Email us:</span>{" "}
+              <a
+                href="mailto:what2eat1@gmail.com"
+                className="text-orange-600 hover:text-orange-700 underline font-medium"
+              >
+                what2eat1@gmail.com
+              </a>
             </p>
           </div>
 

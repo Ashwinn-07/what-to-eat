@@ -9,25 +9,25 @@ export default function Footer({ onNavigate }: FooterProps) {
         <div className="flex flex-wrap justify-center gap-6 mb-6">
           <button
             onClick={() => onNavigate("about")}
-            className="hover:text-white transition-colors"
+            className="hover:text-white transition-colors cursor-pointer"
           >
             About
           </button>
           <button
             onClick={() => onNavigate("privacy")}
-            className="hover:text-white transition-colors"
+            className="hover:text-white transition-colors cursor-pointer"
           >
             Privacy
           </button>
           <button
             onClick={() => onNavigate("contact")}
-            className="hover:text-white transition-colors"
+            className="hover:text-white transition-colors cursor-pointer"
           >
             Contact
           </button>
           <button
             onClick={() => onNavigate("terms")}
-            className="hover:text-white transition-colors"
+            className="hover:text-white transition-colors cursor-pointer"
           >
             Terms
           </button>

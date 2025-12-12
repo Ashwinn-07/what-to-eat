@@ -8,7 +8,7 @@ export default function Privacy() {
 
         <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
           <p className="text-sm text-gray-600 mb-4">
-            Last updated: December 2024
+            Last updated: December 2025
           </p>
 
           <h2 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
