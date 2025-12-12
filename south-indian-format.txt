@@ -9,7 +9,8 @@
     "mood": ["healthy", "comfort"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/idli-recipe-soft-idli-batter/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/idli-recipe-soft-idli-batter/",
+    "region": "South Indian"
   },
   {
     "id": "si-002",
@@ -21,7 +22,8 @@
     "mood": ["comfort", "indulgent"],
     "timeMinutes": 40,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/masala-dosa-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/masala-dosa-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-003",
@@ -33,7 +35,8 @@
     "mood": ["quick", "healthy"],
     "timeMinutes": 25,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/dosa-recipe-dosa-batter-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/dosa-recipe-dosa-batter-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-004",
@@ -45,7 +48,8 @@
     "mood": ["quick", "indulgent"],
     "timeMinutes": 20,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/rava-dosa-recipe-crispy-rava-dosa/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/rava-dosa-recipe-crispy-rava-dosa/",
+    "region": "South Indian"
   },
   {
     "id": "si-005",
@@ -57,7 +61,8 @@
     "mood": ["comfort"],
     "timeMinutes": 25,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/uttapam-recipe-uttapam/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/uttapam-recipe-uttapam/",
+    "region": "South Indian"
   },
   {
     "id": "si-006",
@@ -69,7 +74,8 @@
     "mood": ["indulgent", "spicy"],
     "timeMinutes": 35,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/medu-vada-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/medu-vada-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-007",
@@ -81,7 +87,8 @@
     "mood": ["healthy", "comfort"],
     "timeMinutes": 35,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/sambar-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/sambar-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-008",
@@ -93,7 +100,8 @@
     "mood": ["healthy", "spicy"],
     "timeMinutes": 20,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/rasam-recipe-rasam/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/rasam-recipe-rasam/",
+    "region": "South Indian"
   },
   {
     "id": "si-009",
@@ -105,7 +113,8 @@
     "mood": ["comfort", "healthy"],
     "timeMinutes": 15,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/curd-rice-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/curd-rice-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-010",
@@ -117,7 +126,8 @@
     "mood": ["quick", "healthy"],
     "timeMinutes": 20,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/lemon-rice-recipe-south-indian-lemon-rice/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/lemon-rice-recipe-south-indian-lemon-rice/",
+    "region": "South Indian"
   },
   {
     "id": "si-011",
@@ -129,7 +139,8 @@
     "mood": ["spicy", "comfort"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/puliyogare-recipe-puliyodharai-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/puliyogare-recipe-puliyodharai-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-012",
@@ -141,7 +152,8 @@
     "mood": ["comfort", "spicy"],
     "timeMinutes": 45,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/bisi-bele-bath-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/bisi-bele-bath-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-013",
@@ -153,7 +165,8 @@
     "mood": ["comfort", "healthy"],
     "timeMinutes": 35,
     "priceLevel": "cheap",
-    "recipeUrl": "https://hebbarskitchen.com/sambar-rice-recipe-sambar-sadam-recipe/"
+    "recipeUrl": "https://hebbarskitchen.com/sambar-rice-recipe-sambar-sadam-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-014",
@@ -165,7 +178,8 @@
     "mood": ["comfort"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/ven-pongal-recipe-khara-pongal-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/ven-pongal-recipe-khara-pongal-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-015",
@@ -177,7 +191,8 @@
     "mood": ["indulgent", "comfort"],
     "timeMinutes": 35,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/sweet-pongal-recipe-sakkarai-pongal-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/sweet-pongal-recipe-sakkarai-pongal-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-016",
@@ -189,7 +204,8 @@
     "mood": ["quick", "healthy"],
     "timeMinutes": 20,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/upma-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/upma-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-017",
@@ -201,7 +217,8 @@
     "mood": ["indulgent"],
     "timeMinutes": 25,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/sooji-halwa-suiji-halwa-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/sooji-halwa-suiji-halwa-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-018",
@@ -213,7 +230,8 @@
     "mood": ["healthy", "spicy"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/pesarattu-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/pesarattu-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-019",
@@ -225,7 +243,8 @@
     "mood": ["comfort"],
     "timeMinutes": 40,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/appam-recipe-palappam/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/appam-recipe-palappam/",
+    "region": "South Indian"
   },
   {
     "id": "si-020",
@@ -237,7 +256,8 @@
     "mood": ["healthy", "comfort"],
     "timeMinutes": 30,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/idiyappam-recipe-string-hoppers/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/idiyappam-recipe-string-hoppers/",
+    "region": "South Indian"
   },
   {
     "id": "si-021",
@@ -249,7 +269,8 @@
     "mood": ["indulgent"],
     "timeMinutes": 45,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/kerala-parotta-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/kerala-parotta-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-022",
@@ -261,7 +282,8 @@
     "mood": ["comfort", "healthy"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/idli-sambar-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/idli-sambar-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-023",
@@ -273,7 +295,8 @@
     "mood": ["spicy", "indulgent"],
     "timeMinutes": 40,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/mysore-masala-dosa-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/mysore-masala-dosa-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-024",
@@ -285,7 +308,8 @@
     "mood": ["comfort"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/set-dosa-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/set-dosa-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-025",
@@ -297,7 +321,8 @@
     "mood": ["healthy"],
     "timeMinutes": 25,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/ragi-dosa-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/ragi-dosa-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-026",
@@ -309,7 +334,8 @@
     "mood": ["healthy", "spicy"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/adai-recipe-adai-dosai/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/adai-recipe-adai-dosai/",
+    "region": "South Indian"
   },
   {
     "id": "si-027",
@@ -321,7 +347,8 @@
     "mood": ["quick", "comfort"],
     "timeMinutes": 25,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/kuzhi-paniyaram-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/kuzhi-paniyaram-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-028",
@@ -333,7 +360,8 @@
     "mood": ["spicy", "indulgent"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/masala-vada-recipe-paruppu-vadai/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/masala-vada-recipe-paruppu-vadai/",
+    "region": "South Indian"
   },
   {
     "id": "si-029",
@@ -345,7 +373,8 @@
     "mood": ["indulgent"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/mysore-bonda-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/mysore-bonda-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-030",
@@ -357,7 +386,8 @@
     "mood": ["comfort", "indulgent"],
     "timeMinutes": 35,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/medu-vada-sambar-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/medu-vada-sambar-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-031",
@@ -369,7 +399,8 @@
     "mood": ["indulgent", "spicy"],
     "timeMinutes": 70,
     "priceLevel": "expensive",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/hyderabadi-biryani-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/hyderabadi-biryani-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-032",
@@ -381,7 +412,8 @@
     "mood": ["indulgent", "comfort"],
     "timeMinutes": 60,
     "priceLevel": "expensive",
-    "recipeUrl": "https://www.vegrecipesofindia.com/hyderabadi-veg-biryani-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/hyderabadi-veg-biryani-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-033",
@@ -393,7 +425,8 @@
     "mood": ["spicy", "indulgent"],
     "timeMinutes": 50,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/chettinad-chicken-curry/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/chettinad-chicken-curry/",
+    "region": "South Indian"
   },
   {
     "id": "si-034",
@@ -405,7 +438,8 @@
     "mood": ["spicy", "comfort"],
     "timeMinutes": 40,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/kerala-fish-curry-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/kerala-fish-curry-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-035",
@@ -417,7 +451,8 @@
     "mood": ["indulgent", "spicy"],
     "timeMinutes": 35,
     "priceLevel": "expensive",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/prawn-curry-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/prawn-curry-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-036",
@@ -429,7 +464,8 @@
     "mood": ["spicy", "comfort"],
     "timeMinutes": 30,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/egg-curry-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/egg-curry-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-037",
@@ -441,7 +477,8 @@
     "mood": ["spicy", "indulgent"],
     "timeMinutes": 50,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/gongura-chicken-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/gongura-chicken-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-038",
@@ -453,7 +490,8 @@
     "mood": ["spicy", "healthy"],
     "timeMinutes": 25,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/gongura-pachadi-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/gongura-pachadi-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-039",
@@ -465,7 +503,8 @@
     "mood": ["healthy", "comfort"],
     "timeMinutes": 35,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/avial-recipe-kerala-avial-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/avial-recipe-kerala-avial-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-040",
@@ -477,7 +516,8 @@
     "mood": ["healthy", "quick"],
     "timeMinutes": 20,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/cabbage-thoran-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/cabbage-thoran-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-041",
@@ -489,7 +529,8 @@
     "mood": ["healthy", "quick"],
     "timeMinutes": 20,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/beans-poriyal-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/beans-poriyal-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-042",
@@ -501,7 +542,8 @@
     "mood": ["comfort"],
     "timeMinutes": 30,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/mor-kuzhambu-recipe-more-kulambu/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/mor-kuzhambu-recipe-more-kulambu/",
+    "region": "South Indian"
   },
   {
     "id": "si-043",
@@ -513,7 +555,8 @@
     "mood": ["healthy", "comfort"],
     "timeMinutes": 35,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/soya-chunks-kurma-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/soya-chunks-kurma-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-044",
@@ -525,7 +568,8 @@
     "mood": ["comfort", "indulgent"],
     "timeMinutes": 35,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/veg-kurma-recipe-vegetable-kurma/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/veg-kurma-recipe-vegetable-kurma/",
+    "region": "South Indian"
   },
   {
     "id": "si-045",
@@ -537,7 +581,8 @@
     "mood": ["comfort"],
     "timeMinutes": 40,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/masala-dosa-potato-bhaji-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/masala-dosa-potato-bhaji-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-046",
@@ -549,7 +594,8 @@
     "mood": ["quick", "spicy"],
     "timeMinutes": 25,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/tomato-rice-recipe-tomato-bath/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/tomato-rice-recipe-tomato-bath/",
+    "region": "South Indian"
   },
   {
     "id": "si-047",
@@ -561,7 +607,8 @@
     "mood": ["comfort", "quick"],
     "timeMinutes": 20,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.vegrecipesofindia.com/coconut-rice-recipe-thengai-sadam/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/coconut-rice-recipe-thengai-sadam/",
+    "region": "South Indian"
   },
   {
     "id": "si-048",
@@ -573,7 +620,8 @@
     "mood": ["healthy", "quick"],
     "timeMinutes": 25,
     "priceLevel": "cheap",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/neer-dosa-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/neer-dosa-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-049",
@@ -585,7 +633,8 @@
     "mood": ["indulgent"],
     "timeMinutes": 40,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.vegrecipesofindia.com/kozhukattai-recipe/"
+    "recipeUrl": "https://www.vegrecipesofindia.com/kozhukattai-recipe/",
+    "region": "South Indian"
   },
   {
     "id": "si-050",
@@ -597,6 +646,7 @@
     "mood": ["indulgent", "comfort"],
     "timeMinutes": 30,
     "priceLevel": "medium",
-    "recipeUrl": "https://www.indianhealthyrecipes.com/semiya-payasam-recipe/"
+    "recipeUrl": "https://www.indianhealthyrecipes.com/semiya-payasam-recipe/",
+    "region": "South Indian"
   }
 ]
