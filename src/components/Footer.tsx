@@ -34,7 +34,9 @@ export default function Footer({ onNavigate }: FooterProps) {
         </div>
 
         <div className="text-center text-sm text-gray-500">
-          <p>&copy; 2025 What To Eat? All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} What To Eat? All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
